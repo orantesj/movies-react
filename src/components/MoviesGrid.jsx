@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { MovieCard } from "./MovieCard";
-import movies from "./movies.json";
 import styles from "./MoviesGrid.module.css";
 import { get } from "../utils/httpClient";
 
