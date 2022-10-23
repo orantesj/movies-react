@@ -18,6 +18,7 @@ export function MoviesGrid() {
         //movies = data.results;
         console.log(movies);
       });
+      // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
     <ul className={styles.moviesGrid}>
